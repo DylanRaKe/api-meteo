@@ -1,17 +1,17 @@
 {
   "name": "api-meteo",
   "version": "1.0.0",
+  "description": "Application météo en temps réel",
   "main": "app.js",
   "scripts": {
-    "start": "lite-server",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "lite-server"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "description": "",
   "dependencies": {
-    "axios": "^1.7.9"
+    "axios": "^1.7.9",
+    "lite-server": "^2.6.1"
   },
   "devDependencies": {
     "lite-server": "^2.6.1"
